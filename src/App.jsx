@@ -4,7 +4,7 @@ import AFA_ABI from "./abi/AFA.json";
 import { CONTRACT_ADDRESS, TOKEN_DECIMALS } from "./config";
 
 const PHAROS_PARAMS = {
- chainId: "0xa82d0" // 688688 in hex (REAL value returned by RPC)
+  chainId: "0xa82d0", // 688688 in hexadecimal
   chainName: "Pharos Testnet",
   nativeCurrency: {
     name: "PHRS",
